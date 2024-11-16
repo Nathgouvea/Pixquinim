@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixquinim - Our World of Fun & Adventures</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header class="hero">
+      <nav class="main-nav">
+        <div class="logo">
+          <h1>Pixquinim</h1>
+        </div>
+        <ul>
+          <li><a href="#travel">Travel Tales</a></li>
+          <li><a href="#poop-counter">Poop Counter</a></li>
+          <li><a href="#recipes">Recipes</a></li>
+          <li><a href="#fun">Fun Corner</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-background">
+          <div class="floating-shapes">
+            <div class="shape heart"></div>
+            <div class="shape star"></div>
+            <div class="shape circle"></div>
+            <div class="shape triangle"></div>
+          </div>
+        </div>
+        <h2 class="animated-title">Welcome to Pixquinim</h2>
+        <p class="tagline">A World of Fun, Love, and Adventures</p>
+        <div class="scroll-indicator">
+          <p>Scroll to explore</p>
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Quick Intro -->
+    <section class="intro">
+      <div class="intro-card">
+        <div class="intro-image">
+          <img src="images/rainbow.jpeg" alt="Us under a rainbow" />
+        </div>
+        <div class="intro-text">
+          <h2>Hello There! 👋</h2>
+          <p>
+            Pixquinim is where we (Nathielle and Jamal) document our quirky
+            moments, adventures, and creative ideas. Join us on this colorful
+            journey through our stories, laughs, and maybe a little poop talk.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Travel Tales Section -->
+    <section id="travel" class="travel-tales">
+      <div class="container">
+        <h2 class="section-title">Travel Tales</h2>
+
+        <div class="travel-cards">
+          <!-- Porto Card -->
+          <div class="travel-card">
+            <div class="travel-card-image">
+              <img src="images/rainbow.jpeg" alt="Porto Adventures" />
+            </div>
+            <div class="travel-card-content">
+              <h3>Porto, Portugal 🇵🇹</h3>
+              <p class="travel-date">2022 - Present</p>
+              <p>
+                Where our story began! Living in this beautiful city, exploring
+                its narrow streets, enjoying francesinhas, and creating memories
+                together.
+              </p>
+            </div>
+          </div>
+
+          <!-- Italy Card -->
+          <div class="travel-card">
+            <div class="travel-card-image">
+              <img src="images/italy.jpeg" alt="Italy Adventures" />
+            </div>
+            <div class="travel-card-content">
+              <h3>Italy 🇮🇹</h3>
+              <p class="travel-date">2024</p>
+              <p>
+                Road tripping through beautiful Italy, exploring charming
+                cities, enjoying delicious pasta, and creating unforgettable
+                memories in the streets of Bologna.
+              </p>
+            </div>
+          </div>
+
+          <!-- UK Card -->
+          <div class="travel-card">
+            <div class="travel-card-image">
+              <img src="images/fun_uk.jpeg" alt="UK Adventures" />
+            </div>
+            <div class="travel-card-content">
+              <h3>United Kingdom 🇬🇧</h3>
+              <p class="travel-date">2022</p>
+              <p>
+                Playing dress-up in historic castles and embracing our inner
+                royalty! A journey filled with laughter and medieval adventures.
+              </p>
+            </div>
+          </div>
+
+          <!-- Boom Festival Card -->
+          <div class="travel-card">
+            <div class="travel-card-image">
+              <img src="images/boom_festival.jpeg" alt="Boom Festival" />
+            </div>
+            <div class="travel-card-content">
+              <h3>Boom Festival 🎵</h3>
+              <p class="travel-date">2023</p>
+              <p>
+                Dancing under the Portuguese sun, experiencing the magic of one
+                of the world's most unique festivals together.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How We Met -->
+    <section class="how-we-met">
+      <div class="container">
+        <h2 class="section-title">Our Love Story</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">February 5, 2022</div>
+              <div class="timeline-card">
+                <img
+                  src="images/first_time_together.jpeg"
+                  alt="First Meeting"
+                  class="timeline-image"
+                />
+                <div class="timeline-text">
+                  <h3>First Meeting 💕</h3>
+                  <p>
+                    Our paths crossed in Porto, Portugal. A Brazilian and a
+                    Dutch, brought together by destiny.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">May 15, 2022</div>
+              <div class="timeline-card">
+                <img
+                  src="images/fake_marryme.jpeg"
+                  alt="Official Couple"
+                  class="timeline-image"
+                />
+                <div class="timeline-text">
+                  <h3>Official Couple 💑</h3>
+                  <p>
+                    When we decided to make it official and start our adventure
+                    together. Every day since has been filled with laughter,
+                    love, and countless poops! 😆
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Present Day</div>
+              <div class="timeline-card">
+                <img
+                  src="images/rainbow.jpeg"
+                  alt="Our Journey"
+                  class="timeline-image"
+                />
+                <div class="timeline-text">
+                  <h3>Our Journey Continues 🌈</h3>
+                  <p>
+                    From the beginning, our relationship felt like an adventure,
+                    bridging two cultures—Brazilian and Dutch—and discovering
+                    our unique dynamic. Every day brings new experiences and
+                    memories to cherish.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pets -->
+    <section class="pets">
+      <div class="container">
+        <h2>Our Furry Family</h2>
+        <div class="pets-card">
+          <div class="pet-image">
+            <img src="images/doekje_snaise.jpeg" alt="Snaise and Duca" />
+          </div>
+          <div class="pet-info">
+            <div class="pet">
+              <h3>Snaise</h3>
+              <p>
+                Inspired by mayonnaise, this little troublemaker loves stealing
+                hairbands! 🐱
+              </p>
+            </div>
+            <div class="pet">
+              <h3>Doekje</h3>
+              <p>
+                Named after the Dutch word for 'cloth', our sweet little
+                companion 🧶
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="photo-gallery">
+      <div class="container">
+        <h2>Our Adventures</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/fun_uk.jpeg" alt="Fun at the castle" />
+            <div class="gallery-caption">
+              <h3>Medieval Adventures</h3>
+              <p>Playing dress-up at a historic castle</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/boom_festival.jpeg" alt="Boom Festival" />
+            <div class="gallery-caption">
+              <h3>Festival Vibes</h3>
+              <p>Creating memories at Boom Festival 🎵</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/fake_marryme.jpeg" alt="The Proposal" />
+            <div class="gallery-caption">
+              <h3>Special Moments</h3>
+              <p>Every day is a new adventure together 💍</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/first_time_together.jpeg" alt="First Selfie" />
+            <div class="gallery-caption">
+              <h3>Where It All Began</h3>
+              <p>Our first moments together 💕</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recipes -->
+    <section id="recipes" class="recipes">
+      <div class="container">
+        <h2 class="section-title">Our Favorite Recipes</h2>
+
+        <div class="recipe-grid">
+          <!-- Brazilian Stroganoff -->
+          <div class="recipe-card">
+            <div class="recipe-image-container">
+              <div class="recipe-image-slider">
+                <img
+                  src="./images/recipes/stroganoff-raw.jpg"
+                  alt="Raw ingredients"
+                  class="recipe-image before"
+                />
+                <img
+                  src="images/recipes/stroganoff-cooked.jpg"
+                  alt="Finished dish"
+                  class="recipe-image after"
+                />
+              </div>
+              <div class="slider-control">
+                <input
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  class="slider"
+                />
+                <div class="slider-labels">
+                  <span>Before</span>
+                  <span>After</span>
+                </div>
+              </div>
+            </div>
+            <div class="recipe-content">
+              <h3>Brazilian Stroganoff 🇧🇷</h3>
+              <div class="recipe-details">
+                <span>⏰ 30 mins</span>
+                <span>👥 4 servings</span>
+                <span>⭐ Favorite</span>
+              </div>
+              <div class="recipe-ingredients">
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>500g chicken breast</li>
+                  <li>200ml heavy cream</li>
+                  <li>100g mushrooms</li>
+                  <li>2 tbsp ketchup</li>
+                  <li>1 tbsp mustard</li>
+                </ul>
+              </div>
+              <div class="recipe-steps">
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Cut chicken into strips</li>
+                  <li>Fry until golden brown</li>
+                  <li>Add mushrooms and cook</li>
+                  <li>Add cream, ketchup, and mustard</li>
+                  <li>Simmer until thickened</li>
+                </ol>
+              </div>
+              <div class="recipe-note">
+                <p>
+                  💡 Nathielle's tip: Serve with potato sticks on top for extra
+                  crunch!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dutch Stamppot -->
+          <div class="recipe-card">
+            <div class="recipe-image-container">
+              <div class="recipe-image-slider">
+                <img
+                  src="images/recipes/stamppot-raw.jpg"
+                  alt="Raw ingredients"
+                  class="recipe-image before"
+                />
+                <img
+                  src="images/recipes/stamppot-cooked.jpg"
+                  alt="Finished dish"
+                  class="recipe-image after"
+                />
+              </div>
+              <div class="slider-control">
+                <input
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  class="slider"
+                />
+                <div class="slider-labels">
+                  <span>Before</span>
+                  <span>After</span>
+                </div>
+              </div>
+            </div>
+            <div class="recipe-content">
+              <h3>Dutch Stamppot 🇳🇱</h3>
+              <div class="recipe-details">
+                <span>⏰ 45 mins</span>
+                <span>👥 4 servings</span>
+                <span>🥶 Winter favorite</span>
+              </div>
+              <div class="recipe-ingredients">
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>1kg potatoes</li>
+                  <li>500g kale or endive</li>
+                  <li>200g bacon</li>
+                  <li>1 smoked sausage</li>
+                  <li>Butter and milk</li>
+                </ul>
+              </div>
+              <div class="recipe-steps">
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Boil potatoes until tender</li>
+                  <li>Cook kale separately</li>
+                  <li>Fry bacon until crispy</li>
+                  <li>Mash potatoes with milk and butter</li>
+                  <li>Mix in kale and bacon</li>
+                </ol>
+              </div>
+              <div class="recipe-note">
+                <p>💡 Jamal's tip: Don't forget the gravy!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Poop Counter Section -->
+    <section id="poop-counter" class="poop-counter">
+      <div class="container">
+        <h2>The Famous Poop Counter</h2>
+        <div class="counter-container">
+          <div class="counter-cards">
+            <div class="counter-card jamal">
+              <h3>Jamal's Counter</h3>
+              <div class="counter" id="jamalCount">0</div>
+              <button class="add-poop" onclick="incrementPoop('jamal')">
+                <span class="poop-emoji">💩</span>
+                <span class="button-text">Add Poop</span>
+              </button>
+              <div class="counter-stats">
+                <div class="stat">
+                  <h4>Today</h4>
+                  <p id="jamalTodayCount">0</p>
+                </div>
+                <div class="stat">
+                  <h4>This Week</h4>
+                  <p id="jamalWeekCount">0</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="counter-card nathielle">
+              <h3>Nathielle's Counter</h3>
+              <div class="counter" id="nathielleCount">0</div>
+              <button class="add-poop" onclick="incrementPoop('nathielle')">
+                <span class="poop-emoji">💩</span>
+                <span class="button-text">Add Poop</span>
+              </button>
+              <div class="counter-stats">
+                <div class="stat">
+                  <h4>Today</h4>
+                  <p id="nathielleTodayCount">0</p>
+                </div>
+                <div class="stat">
+                  <h4>This Week</h4>
+                  <p id="nathielleWeekCount">0</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="poop-battle">
+            <h3>Poop Battle 🏆</h3>
+            <div class="battle-stats">
+              <div class="battle-bar">
+                <div class="progress-bar" id="battleProgress"></div>
+              </div>
+              <p id="battleResult">Who will win today? 🤔</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fun Corner Section -->
+    <section id="fun" class="fun-corner">
+      <div class="container">
+        <h2 class="section-title">Fun Corner</h2>
+        <div class="fun-grid">
+          <!-- Memory Game -->
+          <div class="fun-card">
+            <h3>Memory Game</h3>
+            <div class="memory-game" id="memoryGame">
+              <div class="game-start">
+                <button class="start-button">Start Game</button>
+                <p>Match our travel photos!</p>
+              </div>
+              <div class="game-grid"></div>
+              <div class="game-stats">
+                <span class="moves">Moves: 0</span>
+                <span class="time">Time: 0:00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Love Stats -->
+          <div class="fun-card">
+            <h3>Our Journey in Numbers</h3>
+            <div class="love-stats">
+              <div class="stat-item">
+                <div class="stat-icon">❤️</div>
+                <span class="stat-label">Days Together</span>
+                <span class="stat-value" id="daysTogether">0</span>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">🍝</div>
+                <span class="stat-label">Shared Meals</span>
+                <span class="stat-value">∞</span>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">✈️</div>
+                <span class="stat-label">Countries Visited</span>
+                <span class="stat-value">5</span>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">💩</div>
+                <span class="stat-label">Total Poops</span>
+                <span class="stat-value" id="totalPoops">Loading...</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Random Quote Generator -->
+          <div class="fun-card">
+            <h3>Random Memory</h3>
+            <div class="quote-generator">
+              <div class="quote-content" id="randomQuote">
+                <p class="quote-text">
+                  Click to generate a random memory from our adventures!
+                </p>
+              </div>
+              <button class="generate-button">Generate Memory</button>
+            </div>
+          </div>
+
+          <!-- Mood Tracker -->
+          <div class="fun-card">
+            <h3>Today's Mood</h3>
+            <div class="mood-tracker">
+              <div class="mood-grid">
+                <button class="mood-btn" data-mood="happy">😊</button>
+                <button class="mood-btn" data-mood="love">🥰</button>
+                <button class="mood-btn" data-mood="silly">🤪</button>
+                <button class="mood-btn" data-mood="sleepy">😴</button>
+                <button class="mood-btn" data-mood="hungry">🤤</button>
+                <button class="mood-btn" data-mood="poopy">💩</button>
+              </div>
+              <p class="mood-text">Select your mood!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/poopCounter.js"></script>
+    <script src="js/fun.js"></script>
+  </body>
+</html>
